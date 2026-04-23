@@ -1,0 +1,220 @@
+/* components/Footer.css */
+
+.site-footer {
+  background: var(--color-secondary);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-body);
+  position: relative;
+  overflow: hidden;
+}
+
+.site-footer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(145, 85, 36, 0.1) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(212, 132, 65, 0.06) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.footer-main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 4rem 5% 3rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Brand column */
+.footer-brand-col {}
+
+.footer-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 1.25rem;
+}
+
+.footer-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.footer-brand-name {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.footer-tagline {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 260px;
+  margin-bottom: 1.5rem;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-social-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.footer-social-btn:hover {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Nav columns */
+.footer-nav-col h4 {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 1.25rem;
+}
+
+.footer-nav-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-nav-col ul li a {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer-nav-col ul li a:hover {
+  color: white;
+  text-decoration: none;
+  transform: translateX(4px);
+}
+
+/* Contact column */
+.footer-contact-col h4 {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 1.25rem;
+}
+
+.footer-contact-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+}
+
+.footer-contact-icon {
+  font-size: 0.9rem;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.footer-contact-item span,
+.footer-contact-item a {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.footer-contact-item a:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* Divider */
+.footer-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.07);
+  margin: 0 5%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1.25rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-dept-badge {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.25);
+  font-style: italic;
+}
+
+@media (max-width: 1000px) {
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .footer-brand-col {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 3rem 5% 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
