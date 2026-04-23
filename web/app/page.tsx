@@ -5,7 +5,18 @@ import ContactForm from './ContactForm';
 import Footer from '../components/Footer';
 import { CLUB_PHOTOS } from './gallery/photos';
 
-const UPCOMING_EVENTS: any[] = [];
+const UPCOMING_EVENTS: any[] = [
+  {
+    id: 'the-fast-and-formulae',
+    type: 'Competition',
+    title: 'THE FAST AND FORMULAE',
+    desc: 'Test your speed and mathematical precision in this high-stakes competition organized by the Brahmagupta Mathematics Club. Open to all SOE-DSU students.',
+    highlights: ['Speed Challenge', 'Mathematical Precision', 'Special Prizes'],
+    date: '27 April 2026 | 1:30 PM - 4:30 PM',
+    location: 'Lecture Hall - 03',
+    formLink: 'https://brahmaguptha.carrd.co/'
+  }
+];
 
 export default function Home() {
   return (
@@ -35,20 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hero-floating-card animate-slide-up">
-          <img
-            src="https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=640"
-            alt="Club Activity"
-            className="card-image"
-          />
-          <div className="card-overlay">
-            <p className="card-stats">
-              <span><strong>200+</strong> Members</span>
-              <span><strong>40+</strong> Events</span>
-              <span><strong>5</strong> Years</span>
-            </p>
-          </div>
-        </div>
+
 
         <div className="scroll-indicator">
           <span>SCROLL</span>

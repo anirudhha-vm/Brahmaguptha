@@ -8,7 +8,20 @@ export const metadata = {
   description: 'All events and workshops organized by the Brahmagupta Mathematics Club at DSU Bangalore.',
 };
 
-const CURRENT_EVENTS: any[] = [];
+const CURRENT_EVENTS = [
+  {
+    id: 'the-fast-and-formulae',
+    title: 'THE FAST AND FORMULAE',
+    date: '27 April 2026',
+    time: '1:30 PM – 4:30 PM',
+    location: 'Lecture Hall - 03',
+    type: 'Competition',
+    desc: 'Unleash your mathematical speed and precision in this thrilling competition. Tackle complex problems under time pressure and race for excellence.',
+    highlights: ['Speed Mathematics', 'Precision Challenge', 'Competitive Format'],
+    formLink: 'https://brahmaguptha.carrd.co/',
+    prize: 'Prizes for Winners'
+  }
+];
 
 const PAST_EVENTS = [
   {

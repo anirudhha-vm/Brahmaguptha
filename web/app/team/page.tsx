@@ -34,14 +34,6 @@ const FACULTY = [
     email: 'Manoj.s-maths@dsu.edu.in',
     phone: '+91 9351266108',
   },
-  {
-    name: 'Mr. Ajay Singh Jangal',
-    title: 'Faculty In-Charge of Club',
-    designation: 'Assistant Professor',
-    dept: 'Dept. of Mathematics\nDayananda Sagar University, Bangalore',
-    email: 'ajaysingh-maths@dsu.edu.in',
-    phone: '+91 7357730155',
-  },
 ];
 
 function getInitials(name: string) {
