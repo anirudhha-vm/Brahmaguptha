@@ -1,0 +1,111 @@
+Primary (Logo Brown): #915524
+Secondary (Black Arc): #1A1A1A
+Accent (Highlight): #D48441
+Background (Page): #F9F7F2
+Text Primary: #2D2D2D
+Link Color: #A6632D
+
+Heading Font: Cinzel
+Heading Weight: Bold (700)
+Best for: Page titles, H1, H2, and site branding.
+
+Body Font: Montserrat
+Body Weight: Regular (400) or Light (300)
+Best for: Paragraphs, menu items, and button text.
+
+
+Base Settings (The Foundation)
+Base Font Size: 16px (This equals 1rem in CSS). This is the standard web default for optimal reading.
+
+Base Line Height: 1.6 (Provides comfortable breathing room between lines of text).
+
+Background Color: #F9F7F2 (Soft Alabaster).
+
+H1: Main Page Titles
+Purpose: The biggest headline on the page (e.g., "Welcome to Brahmagupta Mathematics Club").
+
+Font Family: Cinzel (Serif)
+
+Font Size: 2.5rem (40px)
+
+Font Weight: Bold (700)
+
+Color: #915524 (Primary Copper)
+
+Styling Note: Cinzel is naturally capitalized, giving it a very grand, monumental feel perfect for a main header.
+
+H2: Section Headings
+Purpose: Titles for major sections (e.g., "About the Club", "Upcoming Events", "Our Members").
+
+Font Family: Cinzel (Serif)
+
+Font Size: 2rem (32px)
+
+Font Weight: Bold (700)
+
+Color: #1A1A1A (Secondary Onyx)
+
+Styling Note: Using the darker Onyx color here instead of Copper prevents the page from looking too "orange" and establishes a solid visual anchor as users scroll.
+
+H3: Sub-section Titles & Cards
+Purpose: Titles inside smaller containers, like individual event names, blog post titles, or feature cards.
+
+Font Family: Montserrat (Sans-Serif)
+
+Font Size: 1.5rem (24px)
+
+Font Weight: Semi-Bold (600)
+
+Color: #915524 (Primary Copper)
+
+Styling Note: We switch to Montserrat here because Cinzel can become hard to read at smaller sizes. Making it Copper helps it stand out as a clear sub-heading.
+
+Body / p: Main Paragraph Text
+Purpose: All standard reading material and descriptions.
+
+Font Family: Montserrat (Sans-Serif)
+
+Font Size: 1rem (16px)
+
+Font Weight: Regular (400)
+
+Color: #2D2D2D (Text Primary - Charcoal)
+
+Styling Note: Never use pure black (#000000) for body text as it causes eye strain against light backgrounds. The Charcoal Gray is softer and much more readable.
+
+a: Hyperlinks
+Purpose: Any clickable text link within a paragraph.
+
+Font Family: Inherits from Body (Montserrat)
+
+Font Size: 1rem (16px)
+
+Font Weight: Semi-Bold (600)
+
+Color: #A6632D (Link Bronze)
+
+Hover State: Change color to #D48441 (Accent Ochre) and add an underline when the mouse hovers over it.
+
+button: Call to Action (CTAs)
+Purpose: Clickable buttons (e.g., "Join Now", "Read More", "Submit").
+
+Font Family: Montserrat (Sans-Serif)
+
+Font Size: 1rem (16px) or 1.125rem (18px)
+
+Font Weight: Semi-Bold (600) or Bold (700)
+
+Text Transformation: Uppercase (e.g., "JOIN THE CLUB") with a slight letter-spacing (1px) to make it look crisp.
+
+Color: White text (#FFFFFF) on a #915524 (Primary Copper) background.
+
+small / footer: Fine Print
+Purpose: Copyright info, footer links, image captions.
+
+Font Family: Montserrat (Sans-Serif)
+
+Font Size: 0.875rem (14px)
+
+Font Weight: Light (300) or Regular (400)
+
+Color: #E0E0E0 (Light Gray) if placed on the dark Onyx footer, or #2D2D2D if on the light background.
