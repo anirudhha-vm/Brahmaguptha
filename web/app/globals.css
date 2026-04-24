@@ -1,6 +1,9 @@
 /* web/app/globals.css */
 
-html { scroll-behavior: smooth; }
+html { 
+  scroll-behavior: smooth; 
+  font-size: 18px; /* Added to increase overall website font scale */
+}
 
 :root {
   /* Colors */
@@ -14,7 +17,7 @@ html { scroll-behavior: smooth; }
   
   /* Typography */
   --font-heading: 'Cinzel', serif;
-  --font-body: 'Montserrat', sans-serif;
+  --font-body: 'Arial', sans-serif;
   
   /* Spacing */
   --space-xs: 0.5rem;
@@ -44,7 +47,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 1.125rem; /* Increased font size for description paragraphs */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

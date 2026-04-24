@@ -30,7 +30,6 @@
 }
 
 /* Brand column */
-.footer-brand-col {}
 
 .footer-logo-wrap {
   display: flex;
@@ -42,7 +41,8 @@
 .footer-logo {
   width: 44px;
   height: 44px;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .footer-brand-name {
@@ -146,6 +146,7 @@
   font-size: 0.9rem;
   margin-top: 2px;
   flex-shrink: 0;
+  color: var(--color-accent);
 }
 
 .footer-contact-item span,

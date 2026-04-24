@@ -11,7 +11,7 @@ export default function LoginPage({ searchParams }: { searchParams: { error?: st
     <div className="login-wrapper">
       <div className="login-card animate-fade-in">
         <div className="login-logo">
-          <img src="/Final_Logo.png" alt="Brahmagupta Club Logo" />
+          <img src="/Final_Logo.png" alt="Brahmagupta Club Logo" style={{ borderRadius: '50%', objectFit: 'cover' }} />
         </div>
         <h1 className="login-title">Admin Access</h1>
         <p className="login-subtitle">Faculty &amp; Core Team Only — Authorised Personnel</p>

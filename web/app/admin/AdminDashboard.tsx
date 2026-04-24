@@ -55,7 +55,7 @@ export default function AdminDashboard({ displayEmail, events, notices, galleryF
       {/* ── Top bar ── */}
       <header className="admin-topbar">
         <div className="admin-topbar-brand">
-          <img src="/Final_Logo.png" alt="Brahmagupta Club" />
+          <img src="/Final_Logo.png" alt="Brahmagupta Club" style={{ borderRadius: '50%', objectFit: 'cover' }} />
           <div>
             <div className="admin-topbar-title">BRAHMAGUPTA</div>
             <div className="admin-topbar-sub">Admin Portal</div>
