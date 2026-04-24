@@ -31,7 +31,7 @@ export default function Home() {
             From Mathematical Insight to<br />Intelligent Engineering...
           </h1>
           <p className="hero-subtitle">
-            The Mathematics club of Dayanada sagar University, Bangalore
+            The Mathematics club of Dayananda Sagar University, Bangalore
           </p>
           <div className="hero-actions">
             <Link href="/events" className="btn btn-copper">View Events</Link>
