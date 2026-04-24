@@ -17,8 +17,8 @@ export default function Footer() {
             The official Mathematics &amp; AI Club of Dayananda Sagar University, Bangalore — empowering analytical thinking, research, and innovation.
           </p>
           <div className="footer-socials">
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="footer-social-btn" title="Instagram">ig</a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="footer-social-btn" title="LinkedIn">in</a>
+            <a href="https://www.instagram.com/themathclub_dsu?utm_source=qr&igsh=Y2pybWNvYXBod29q" target="_blank" rel="noopener noreferrer" className="footer-social-btn" title="Instagram">ig</a>
+            <a href="https://www.linkedin.com/in/mathsclub-dsu-60075b3ba?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" className="footer-social-btn" title="LinkedIn">in</a>
             <a href="https://www.dsu.edu.in/engineering/mathematics" target="_blank" rel="noopener noreferrer" className="footer-social-btn" title="Dept of Mathematics">∑</a>
           </div>
         </div>

@@ -63,8 +63,8 @@ export default function ContactPage() {
             <div className="contact-socials-block">
               <div className="ci-label" style={{ marginBottom: '1rem' }}>Follow Us</div>
               <div className="co-socials">
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="co-social-link">Instagram</a>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="co-social-link">LinkedIn</a>
+                <a href="https://www.instagram.com/themathclub_dsu?utm_source=qr&igsh=Y2pybWNvYXBod29q" target="_blank" rel="noopener noreferrer" className="co-social-link">Instagram</a>
+                <a href="https://www.linkedin.com/in/mathsclub-dsu-60075b3ba?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" className="co-social-link">LinkedIn</a>
                 <a href="https://www.dsu.edu.in/engineering/mathematics" target="_blank" rel="noopener noreferrer" className="co-social-link">DSU Maths</a>
               </div>
             </div>

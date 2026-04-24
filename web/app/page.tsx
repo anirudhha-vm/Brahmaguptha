@@ -201,8 +201,8 @@ export default function Home() {
               </div>
             </div>
             <div className="contact-socials">
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="social-link">Instagram</a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
+              <a href="https://www.instagram.com/themathclub_dsu?utm_source=qr&igsh=Y2pybWNvYXBod29q" target="_blank" rel="noopener noreferrer" className="social-link">Instagram</a>
+              <a href="https://www.linkedin.com/in/mathsclub-dsu-60075b3ba?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
               <Link href="/contact" className="social-link">Full Contact Page</Link>
             </div>
           </div>
