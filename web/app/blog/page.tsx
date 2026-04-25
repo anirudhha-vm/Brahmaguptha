@@ -58,7 +58,7 @@ export default function BlogPage() {
                 <span>{post.readTime}</span>
               </div>
               <h2 className="blog-post-title">{post.title}</h2>
-              <p className="blog-excerpt">{post.desc || post.excerpt}</p>
+              <p className="blog-excerpt">{post.excerpt}</p>
               
               <div className="blog-author">
                 <div className="author-avatar flex items-center justify-center bg-gray-200">
