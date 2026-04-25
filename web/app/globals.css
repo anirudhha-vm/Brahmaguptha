@@ -137,12 +137,23 @@ button:hover, .btn:hover {
 }
 
 .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-family: var(--font-heading);
   font-size: 1.6rem;
   font-weight: 700;
   color: var(--color-primary);
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+.nav-brand-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .nav-links {
@@ -239,7 +250,32 @@ button:hover, .btn:hover {
     justify-content: center;
   }
 
-  .nav-menu-toggle { display: block; }
+  .nav-menu-toggle { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-accent);
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    padding: 0;
+    margin-right: -4px; /* Align slightly tighter to the edge */
+  }
+
+  .nav-brand-text {
+    font-size: 1.2rem;
+  }
+
+  .nav-brand {
+    gap: 8px;
+  }
+
+  .nav-brand-logo {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 /* Base Layout Classes */

@@ -18,9 +18,9 @@ export default function Navigation() {
 
   return (
     <nav className="floating-nav" id="floating-nav">
-      <Link href="/" className="nav-brand" style={{display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none'}} onClick={closeMenu}>
-        <img src="/Final_Logo.png" alt="Brahmagupta Club Logo" style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover' }} />
-        <span style={{paddingTop: '2px'}}>BRAHMAGUPTA</span>
+      <Link href="/" className="nav-brand" onClick={closeMenu}>
+        <img src="/Final_Logo.png" alt="Brahmagupta Club Logo" className="nav-brand-logo" />
+        <span className="nav-brand-text">BRAHMAGUPTA</span>
       </Link>
       
       <div className={`nav-links ${isMenuOpen ? 'nav-links-open' : ''}`}>
