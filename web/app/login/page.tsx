@@ -6,7 +6,17 @@ export const metadata = {
   title: 'Admin Login | Brahmagupta Mathematics Club DSU',
 };
 
-export default function LoginPage({ searchParams }: { searchParams: { error?: string, message?: string } }) {
+import { redirect } from 'next/navigation';
+import { createClient } from '../../utils/supabase/server';
+
+export default async function LoginPage({ searchParams }: { searchParams: { error?: string, message?: string } }) {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  
+  if (user) {
+    redirect('/admin');
+  }
+
   return (
     <div className="login-wrapper">
       <div className="login-card animate-fade-in">
