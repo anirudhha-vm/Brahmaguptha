@@ -187,7 +187,7 @@ Guidelines:
       model: "gemini-2.5-flash",
       systemInstruction,
     });
-
+    //kay
     const chatSession = model.startChat({ history });
     const result = await chatSession.sendMessageStream(userMessage);
 
