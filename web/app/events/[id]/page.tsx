@@ -27,7 +27,7 @@ export default async function EventDetailPage({ params }: { params: { id: string
         
         <div style={{borderRadius: 'var(--radius-md)', overflow: 'hidden', boxShadow: 'var(--shadow-subtle)', background: 'white'}}>
           <div style={{width: '100%', height: '300px', backgroundImage: `url(${event.banner_url || 'https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=2940'})`, backgroundSize: 'cover', backgroundPosition: 'center', position: 'relative'}}>
-            <div style={{position: 'absolute', top: '20px', left: '20px', background: 'var(--color-primary)', color: 'white', padding: '6px 12px', borderRadius: '4px', fontFeatureSettings: 'small-caps', fontWeight: 'bold'}}>{event.type.replace('_', ' ')}</div>
+            <div style={{position: 'absolute', top: '20px', left: '20px', background: 'var(--color-primary)', color: 'white', padding: '6px 12px', borderRadius: '4px', fontFeatureSettings: 'small-caps', fontWeight: 'bold'}}>{event.type?.replace('_', ' ') || 'EVENT'}</div>
           </div>
           
           <div style={{padding: 'var(--space-xl)'}}>
@@ -42,7 +42,7 @@ export default async function EventDetailPage({ params }: { params: { id: string
 
             <div style={{background: 'var(--color-bg)', padding: 'var(--space-md)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--color-light-gray)', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
               <div>
-                <span style={{display: 'block', fontWeight: '600', color: 'var(--color-secondary)'}}>Status: {event.status.toUpperCase()}</span>
+                <span style={{display: 'block', fontWeight: '600', color: 'var(--color-secondary)'}}>Status: {event.status?.toUpperCase() || 'UNKNOWN'}</span>
                 <span style={{fontSize: '0.9rem', color: 'var(--color-text)'}}>
                   👥 {event.registered_users?.length || 0} / {event.max_participants || '∞'} Registered
                 </span>
@@ -55,7 +55,7 @@ export default async function EventDetailPage({ params }: { params: { id: string
               ) : registrationFull ? (
                 <button className="btn" style={{background: '#ccc', color: 'white', border: 'none', cursor: 'not-allowed'}} disabled>Registration Full</button>
               ) : (
-                <form action={registerForEvent}>
+                <form action={registerForEvent as any}>
                   <input type="hidden" name="eventId" value={event.id} />
                   <button type="submit" className="btn">Register Now</button>
                 </form>
