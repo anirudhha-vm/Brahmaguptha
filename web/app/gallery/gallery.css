@@ -179,4 +179,11 @@
   .gallery-photo-item.tall { grid-column: span 1; grid-row: span 1; }
   .gallery-photos-section { padding: 3rem 1.5rem; }
   .gallery-hero { padding: 7rem 1.5rem 4rem; }
+  
+  .gallery-hero h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
 }
