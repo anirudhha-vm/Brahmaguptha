@@ -763,6 +763,13 @@
 }
 
 @media (max-width: 768px) {
+  .hero-background {
+    background:
+      linear-gradient(to bottom, rgba(18, 18, 18, 0.8) 0%, rgba(18, 18, 18, 0.6) 50%, rgba(18, 18, 18, 0.9) 100%),
+      url('/home_hero_bg.png');
+    background-size: cover;
+    background-position: 70% center;
+  }
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 180px;
@@ -773,6 +780,9 @@
 }
 
 @media (max-width: 480px) {
+  .hero-background {
+    background-position: 75% center;
+  }
   .gallery-grid { grid-template-columns: 1fr; }
   .gallery-item.tall { grid-row: span 1; }
 }
