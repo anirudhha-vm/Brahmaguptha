@@ -48,10 +48,6 @@ export default function Home() {
 
 
 
-        <div className="scroll-indicator">
-          <span>SCROLL</span>
-          <div className="scroll-line"></div>
-        </div>
       </section>
 
       {/* ─── ABOUT SNIPPET ─── */}

@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.next/
+out/
+build/
+
+# Environment
+.env*
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Workspace
+.vscode/
+.gemini/
+findings.md
+gemini.md
+progress.md
+task_plan.md
+test-chat.js

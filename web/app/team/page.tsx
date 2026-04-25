@@ -88,7 +88,7 @@ export default function TeamPage() {
         </div>
 
         {/* Faculty In-Charge */}
-        <div className="team-section">
+        <div className="team-section faculty-section">
           <div className="team-section-header">
             <h2>Faculty In-Charge</h2>
           </div>

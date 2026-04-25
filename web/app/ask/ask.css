@@ -133,8 +133,73 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .send-btn:hover {
   background: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .ask-wrapper {
+    margin-top: 110px;
+    padding: var(--space-xs);
+    min-height: calc(100vh - 110px);
+  }
+
+  .chat-container {
+    height: calc(100vh - 140px);
+    border-radius: var(--radius-sm);
+  }
+
+  .chat-header {
+    padding: var(--space-sm);
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .chat-title h2 {
+    font-size: 1.2rem;
+  }
+
+  .chat-title p {
+    font-size: 0.8rem;
+  }
+
+  .ai-avatar {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+  }
+
+  .chat-messages {
+    padding: var(--space-sm);
+    gap: 1rem;
+  }
+
+  .msg {
+    max-width: 95%;
+  }
+
+  .msg-bubble {
+    padding: 12px 14px;
+    font-size: 0.9rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .chat-input {
+    padding: var(--space-sm);
+  }
+
+  .chat-field {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+
+  .send-btn {
+    width: 40px;
+    height: 40px;
+  }
 }
