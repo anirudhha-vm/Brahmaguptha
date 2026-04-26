@@ -26,12 +26,12 @@ export default function Home() {
       <section className="hero-section" id="home">
         <div className="hero-background"></div>
         <div className="hero-content animate-fade-in">
-          <div className="hero-badge">Mathematics &amp; AI Club — DSU Bangalore</div>
+          <div className="hero-badge">Official Mathematics Club of DSU</div>
           <h1 className="hero-massive-title" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', lineHeight: '1.1' }}>
             From Mathematical Insight to<br />Intelligent Engineering...
           </h1>
           <p className="hero-subtitle">
-            The Mathematics club of Dayananda Sagar University, Bangalore
+            The Mathematics club of Dayananda Sagar University, Bengaluru
           </p>
           <div className="hero-actions">
             <Link href="/events" className="btn btn-copper">View Events</Link>
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="section-label">Who We Are</div>
             <h2 className="section-head">Born from curiosity.<br />Built on rigour.</h2>
             <p className="section-para">
-              The Brahmagupta Mathematics Club, established by the Department of Mathematics at Dayananda Sagar School of Engineering, serves as a bridge between young engineering minds and advanced research in mathematics and AI.
+              The Brahmagupta Mathematics Club, established by the Department of Mathematics at School of Engineering, Dayananda Sagar University, serves as a bridge between young engineering minds and advanced research in mathematics and AI.
             </p>
             <p className="section-para">
               Inspired by the 7th-century Indian mathematician Brahmagupta, we foster analytical thinking, computational skills, and research-oriented learning through workshops, hackathons, seminars, and more.

@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 
 export const metadata = {
   title: 'About | Brahmagupta Mathematics Club DSU',
-  description: 'Learn about the Brahmagupta Mathematics Club — a student-led mathematics and AI community at Dayananda Sagar University, Bangalore.',
+  description: 'Learn about the Brahmagupta Mathematics Club — a student-led mathematics and AI community at Dayananda Sagar University, Bengaluru.',
 };
 
 export default function AboutPage() {
@@ -32,7 +32,7 @@ export default function AboutPage() {
             <div className="section-label">Our Story</div>
             <h2>Brahmagupta Mathematics Club</h2>
             <p>
-              The Brahmagupta Mathematics Club, established by the Department of Mathematics, Dayananda Sagar School of Engineering (DSU), serves as a bridge between young engineering minds and advanced research in mathematics and Artificial Intelligence.
+              The Brahmagupta Mathematics Club, established by the Department of Mathematics at School of Engineering, Dayananda Sagar University, serves as a bridge between young engineering minds and advanced research in mathematics and Artificial Intelligence.
             </p>
             <p>
               As Dayananda Sagar University proudly positions itself as India's AI-first university, the club aligns its activities with this forward-looking vision. Mathematics forms the foundation of Artificial Intelligence, Data Science, Machine Learning, Computational Modeling, and emerging technologies.

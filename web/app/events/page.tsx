@@ -5,7 +5,7 @@ import './events.css';
 
 export const metadata = {
   title: 'Events | Brahmagupta Mathematics Club DSU',
-  description: 'All events and workshops organized by the Brahmagupta Mathematics Club at DSU Bangalore.',
+  description: 'All events and workshops organized by the Brahmagupta Mathematics Club at DSU Bengaluru.',
 };
 
 const CURRENT_EVENTS = [
@@ -28,7 +28,7 @@ const PAST_EVENTS = [
     id: 'sootravyooh-2025',
     title: "Sootravyooh: 'From Formulae to Fun'",
     date: '26 September 2025',
-    location: 'SOE Lab 406, DSU Bangalore',
+    location: 'SOE Lab 406, DSU Bengaluru',
     type: 'Workshop',
     status: 'past',
     desc: "A vibrant mathematics event that brought together students to explore the playful side of mathematics — from formulae to engaging hands-on activities.",
@@ -38,7 +38,7 @@ const PAST_EVENTS = [
     id: 'national-math-day-2024',
     title: 'National Mathematics Day & Inauguration of Brahmagupta Club',
     date: '24 December 2024',
-    location: 'SOE – LH-01, DSU Bangalore',
+    location: 'SOE – LH-01, DSU Bengaluru',
     type: 'Inauguration & Celebration',
     status: 'past',
     desc: 'The official inauguration of the Brahmagupta Mathematics Club, held on National Mathematics Day — commemorating the birthday of the great mathematician Srinivasa Ramanujan.',

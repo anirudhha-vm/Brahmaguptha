@@ -5,7 +5,7 @@ import GalleryGrid from './GalleryGrid';
 
 export const metadata = {
   title: 'Gallery | Brahmagupta Mathematics Club DSU',
-  description: 'Photo gallery of Brahmagupta Mathematics Club events and activities at DSU Bangalore.',
+  description: 'Photo gallery of Brahmagupta Mathematics Club events and activities at DSU Bengaluru.',
 };
 
 export default function GalleryPage() {
@@ -28,7 +28,7 @@ export default function GalleryPage() {
           <div className="gallery-section-header">
             <div className="section-label" style={{ textAlign: 'center', marginBottom: '0.75rem' }}>Browse Photos</div>
             <h2>Our Event Gallery</h2>
-            <p>Highlights from workshops, competitions, and club life at DSU Bangalore.</p>
+            <p>Highlights from workshops, competitions, and club life at DSU Bengaluru.</p>
           </div>
           <GalleryGrid />
         </div>

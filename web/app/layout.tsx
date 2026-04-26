@@ -17,8 +17,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Brahmagupta Mathematics & AI Club | DSU Bangalore",
-  description: "Official portal for the Brahmagupta Club — Empowering Mathematics and AI at Dayananda Sagar University, Bangalore.",
+  title: "Brahmagupta Mathematics & AI Club | DSU Bengaluru",
+  description: "Official portal for the Brahmagupta Club — Empowering Mathematics and AI at Dayananda Sagar University, Bengaluru.",
 };
 
 export default function RootLayout({
