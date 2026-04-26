@@ -27,6 +27,10 @@ export default function Footer() {
               <span style={{ fontSize: '1.1rem' }}>∑</span>
             </a>
           </div>
+          <div style={{ marginTop: '2rem' }}>
+            <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '2px', color: 'rgba(255,255,255,0.4)', display: 'block', marginBottom: '0.5rem' }}>An Official Club Of</span>
+            <img src="/dsu_logo_white.png" alt="DSU White Logo" style={{ height: '36px', width: 'auto', opacity: 0.8 }} />
+          </div>
         </div>
 
         {/* Navigation Column */}

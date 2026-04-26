@@ -21,6 +21,10 @@ export default function Navigation() {
       <Link href="/" className="nav-brand" onClick={closeMenu}>
         <img src="/Final_Logo.png" alt="Brahmagupta Club Logo" className="nav-brand-logo" />
         <span className="nav-brand-text">BRAHMAGUPTA</span>
+        <span className="nav-brand-divider desktop-only" style={{ opacity: 0.3, margin: '0 8px', fontSize: '1.2rem', fontWeight: 300, color: 'var(--color-secondary)' }}>|</span>
+        <span className="nav-brand-divider mobile-only" style={{ opacity: 0.3, margin: '0 6px', fontSize: '1rem', fontWeight: 300, color: 'var(--color-secondary)' }}>|</span>
+        <img src="/dsu_logo_color.png" alt="DSU Logo" className="nav-dsu-logo desktop-only" style={{ height: '32px', width: 'auto', objectFit: 'contain' }} />
+        <img src="/dsu_logo_seal.png" alt="DSU Logo" className="nav-dsu-logo mobile-only" style={{ height: '28px', width: '28px', objectFit: 'contain' }} />
       </Link>
       
       <div className={`nav-links ${isMenuOpen ? 'nav-links-open' : ''}`}>
