@@ -245,10 +245,6 @@ button:hover, .btn:hover {
     height: 32px;
   }
   
-  .nav-dsu-logo {
-    margin-left: 2px;
-  }
-
   .nav-links {
     display: none;
     flex-direction: column;
