@@ -26,7 +26,7 @@ export default function Home() {
       <section className="hero-section" id="home">
         <div className="hero-background"></div>
         <div className="hero-content animate-fade-in">
-          <div className="hero-badge">Mathematics &amp; AI Club — DSU Bangalore</div>
+          <div className="hero-badge">Official Mathematics Club of DSU</div>
           <h1 className="hero-massive-title" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', lineHeight: '1.1' }}>
             From Mathematical Insight to<br />Intelligent Engineering...
           </h1>
