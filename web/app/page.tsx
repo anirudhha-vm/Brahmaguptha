@@ -57,7 +57,7 @@ export default function Home() {
             <div className="section-label">Who We Are</div>
             <h2 className="section-head">Born from curiosity.<br />Built on rigour.</h2>
             <p className="section-para">
-              The Brahmagupta Mathematics Club, established by the Department of Mathematics at Dayananda Sagar School of Engineering, serves as a bridge between young engineering minds and advanced research in mathematics and AI.
+              The Brahmagupta Mathematics Club, established by the Department of Mathematics at School of Engineering, Dayananda Sagar University, serves as a bridge between young engineering minds and advanced research in mathematics and AI.
             </p>
             <p className="section-para">
               Inspired by the 7th-century Indian mathematician Brahmagupta, we foster analytical thinking, computational skills, and research-oriented learning through workshops, hackathons, seminars, and more.
