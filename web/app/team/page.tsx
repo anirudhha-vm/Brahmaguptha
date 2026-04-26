@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 
 export const metadata = {
   title: 'Team | Brahmagupta Mathematics Club DSU',
-  description: 'Meet the office bearers, team heads, and faculty in-charge of the Brahmagupta Mathematics Club at DSU Bangalore.',
+  description: 'Meet the office bearers, team heads, and faculty in-charge of the Brahmagupta Mathematics Club at DSU Bengaluru.',
 };
 
 const OFFICE_BEARERS = [
@@ -30,7 +30,7 @@ const FACULTY = [
     name: 'Mr. Manoj Solanki',
     title: 'Faculty In-Charge of Club',
     designation: 'Assistant Professor',
-    dept: 'Dept. of Mathematics\nDayananda Sagar University, Bangalore',
+    dept: 'Dept. of Mathematics\nDayananda Sagar University, Bengaluru',
     email: 'Manoj.s-maths@dsu.edu.in',
     phone: '+91 9351266108',
   },

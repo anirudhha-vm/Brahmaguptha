@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 
 export const metadata = {
   title: 'About | Brahmagupta Mathematics Club DSU',
-  description: 'Learn about the Brahmagupta Mathematics Club — a student-led mathematics and AI community at Dayananda Sagar University, Bangalore.',
+  description: 'Learn about the Brahmagupta Mathematics Club — a student-led mathematics and AI community at Dayananda Sagar University, Bengaluru.',
 };
 
 export default function AboutPage() {

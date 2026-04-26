@@ -8,7 +8,7 @@ const CLUB_KNOWLEDGE = `
 --- CLUB OVERVIEW ---
 Name: Brahmagupta Mathematics Club
 Also known as: The Math Club, DSU Math Club
-University: Dayananda Sagar University (DSU), Bangalore
+University: Dayananda Sagar University (DSU), Bengaluru
 School: Dayananda Sagar School of Engineering (SOE)
 Department: Department of Mathematics
 Type: Student-run mathematics and AI club
@@ -64,7 +64,7 @@ Type: Competition
 Status: Registrations Open / Upcoming
 Date: 27 April 2026
 Time: 1:30 PM – 4:30 PM
-Location: Lecture Hall - 03 (LH-03), SOE, DSU Bangalore
+Location: Lecture Hall - 03 (LH-03), SOE, DSU Bengaluru
 Description: Test your speed and mathematical precision in this high-stakes competition organized by the Brahmagupta Mathematics Club. Open to all SOE-DSU students. Tackle complex problems under time pressure and race for excellence.
 Highlights: Speed Mathematics, Mathematical Precision / Precision Challenge, Competitive Format, Special Prizes, Prizes for Winners
 Registration Link: https://brahmaguptha.carrd.co/
@@ -74,14 +74,14 @@ Note: This is the CURRENT upcoming event as of April 2026.
 Event: Sootravyooh: 'From Formulae to Fun'
 Type: Workshop
 Date: 26 September 2025
-Location: SOE Lab 406, DSU Bangalore
+Location: SOE Lab 406, DSU Bengaluru
 Description: A vibrant mathematics event that brought together students to explore the playful side of mathematics — from formulae to engaging hands-on activities.
 PDF: https://www.dsu.edu.in/images/Engineering/Maths-dept/clubs/Brahmagupta/Sootravyooh_2025.pdf
 
 Event: National Mathematics Day & Inauguration of Brahmagupta Club
 Type: Inauguration & Celebration
 Date: 24 December 2024
-Location: SOE – LH-01, DSU Bangalore
+Location: SOE – LH-01, DSU Bengaluru
 Description: The official inauguration of the Brahmagupta Mathematics Club, held on National Mathematics Day — commemorating the birthday of the great mathematician Srinivasa Ramanujan. This was the founding event of the club.
 PDF: https://www.dsu.edu.in/images/Engineering/Maths-dept/clubs/Brahmagupta/Maths_Day_2024.pdf
 
@@ -105,7 +105,7 @@ Content & Newsletter Head: Shivam Kr Mehta
 Name: Mr. Manoj Solanki
 Title: Faculty In-Charge of Club
 Designation: Assistant Professor
-Department: Dept. of Mathematics, Dayananda Sagar University, Bangalore
+Department: Dept. of Mathematics, Dayananda Sagar University, Bengaluru
 Email: Manoj.s-maths@dsu.edu.in
 Phone: +91 9351266108
 
@@ -152,7 +152,7 @@ Notices: ${JSON.stringify(notices, null, 2)}
       // Supabase failure is non-fatal; static knowledge is sufficient
     }
 
-    const systemInstruction = `You are the Brahmagupta AI — the official intelligent assistant for the Brahmagupta Mathematics Club of Dayananda Sagar University (DSU), Bangalore.
+    const systemInstruction = `You are the Brahmagupta AI — the official intelligent assistant for the Brahmagupta Mathematics Club of Dayananda Sagar University (DSU), Bengaluru.
 
 Your primary knowledge base is embedded below. Use it to answer any question about the club, its events, team, mission, history, and contact details.
 

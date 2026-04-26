@@ -5,7 +5,7 @@ import './contact.css';
 
 export const metadata = {
   title: 'Contact | Brahmagupta Mathematics Club DSU',
-  description: 'Get in touch with the Brahmagupta Mathematics Club at DSU Bangalore.',
+  description: 'Get in touch with the Brahmagupta Mathematics Club at DSU Bengaluru.',
 };
 
 export default function ContactPage() {
