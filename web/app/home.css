@@ -177,6 +177,61 @@
 }
 
 /* ═══════════════════════════════════════
+   MOVING NEWS TICKER
+════════════════════════════════════════ */
+.news-ticker-wrapper {
+  background: #edcdbc; /* Warm peach/beige from screenshot */
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  display: flex;
+  position: relative;
+}
+
+.news-ticker {
+  display: flex;
+  white-space: nowrap;
+  animation: ticker-scroll 35s linear infinite;
+  width: max-content;
+}
+
+.news-ticker:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 40px;
+  font-family: Arial, sans-serif; /* simple sans-serif from image */
+  font-size: 0.9rem;
+  color: #3b303b; /* dark text from image */
+}
+
+.ticker-btn {
+  background: #201b33; /* Dark button from image */
+  color: white;
+  padding: 4px 12px;
+  margin-left: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: background 0.2s;
+}
+
+.ticker-btn:hover {
+  background: #322b4d;
+  color: white;
+}
+
+/* ═══════════════════════════════════════
    SHARED SECTION UTILITIES
 ════════════════════════════════════════ */
 .section-inner {
