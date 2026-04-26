@@ -50,6 +50,37 @@ export default function Home() {
 
       </section>
 
+      {/* ─── MOVING NEWS TICKER ─── */}
+      <div className="news-ticker-wrapper">
+        <div className="news-ticker">
+          {/* --- SET 1 --- */}
+          <span className="ticker-item">
+            🚀 Registrations now open for THE FAST AND FORMULAE!
+            <a href="https://brahmaguptha.carrd.co/" target="_blank" rel="noopener noreferrer" className="ticker-btn">Register Now</a>
+          </span>
+          <span className="ticker-item">
+            Welcome to the newly launched official website of Brahmagupta Mathematics Club — DSU SOE.
+          </span>
+          <span className="ticker-item">
+            🚀 Registrations now open for THE FAST AND FORMULAE!
+            <a href="https://brahmaguptha.carrd.co/" target="_blank" rel="noopener noreferrer" className="ticker-btn">Register Now</a>
+          </span>
+
+          {/* --- SET 2 (Duplicate for infinite scroll) --- */}
+          <span className="ticker-item" aria-hidden="true">
+            🚀 Registrations now open for THE FAST AND FORMULAE!
+            <a href="https://brahmaguptha.carrd.co/" target="_blank" rel="noopener noreferrer" className="ticker-btn" tabIndex={-1}>Register Now</a>
+          </span>
+          <span className="ticker-item" aria-hidden="true">
+            Welcome to the newly launched official website of Brahmagupta Mathematics Club — DSU SOE.
+          </span>
+          <span className="ticker-item" aria-hidden="true">
+            🚀 Registrations now open for THE FAST AND FORMULAE!
+            <a href="https://brahmaguptha.carrd.co/" target="_blank" rel="noopener noreferrer" className="ticker-btn" tabIndex={-1}>Register Now</a>
+          </span>
+        </div>
+      </div>
+
       {/* ─── ABOUT SNIPPET ─── */}
       <section className="about-section" id="about">
         <div className="section-inner">
