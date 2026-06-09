@@ -65,7 +65,7 @@ export default function EventsPage() {
               <span /><span /><span />
             </div>
             <div className="coming-soon-meta">
-              <span>📡 Follow us on Instagram for announcements</span>
+              <span>Follow us on Instagram for announcements</span>
               <a
                 href="https://www.instagram.com/themathclub_dsu"
                 target="_blank"
