@@ -59,20 +59,30 @@ The club logo features the portrait of Brahmagupta, symbolizing the heritage of 
 - Speed mathematics competitions
 
 --- UPCOMING EVENTS ---
-Event: THE FAST AND FORMULAE
+Status: No upcoming events currently scheduled. Stay tuned via Instagram (@themathclub_dsu) for announcements.
+
+--- PAST EVENTS ---
+Event: The Fast & The Formulae
 Type: Competition
-Status: Registrations Open / Upcoming
+Status: COMPLETED ✅
 Date: 27 April 2026
 Time: 1:30 PM – 4:30 PM
 Location: Lecture Hall - 03 (LH-03), SOE, DSU Bengaluru
-Description: Test your speed and mathematical precision in this high-stakes competition organized by the Brahmagupta Mathematics Club. Open to all SOE-DSU students. Tackle complex problems under time pressure and race for excellence.
-Highlights: Speed Mathematics, Mathematical Precision / Precision Challenge, Competitive Format, Special Prizes, Prizes for Winners
-Registration Link: https://brahmaguptha.carrd.co/
-Note: This is the CURRENT upcoming event as of April 2026.
+Description: A landmark competition that also featured the official launch of the Brahmagupta Mathematics Club website. The event comprised three major activities: the Mathematical Quiz, the Desmos Graphing Challenge, and the Website Launch.
+Participation: 25 team registrations, 100+ participants from across the School of Engineering, DSU.
+Activities:
+  1. Official Website Launch – The Brahmagupta Club website was officially launched during the event's inaugural session.
+  2. Mathematical Quiz – 4 rounds: (R1) Kahoot Basic Concepts, (R2) Kahoot Intermediate, (R3) Buzzer Round (rapid-fire), (R4) Pen-and-Paper Round (advanced analytical problems).
+  3. Desmos Graphing Challenge – Bracket-based elimination: Level 1 Basic, Level 2 Intermediate (transformations), Level 3 Advanced (multi-equation visualization).
+Results: Quiz Competition Winner & Runner-Up awarded Certificates and Prizes. Desmos Challenge Winner & Runner-Up awarded Certificates and Prizes. Prizes distributed by the HoD Dr. Mahalakshmi P and faculty.
+Highlights: 100+ participants, 25 teams, 4 quiz rounds, 3 Desmos levels, website launch, prizes & certificates.
+Outcomes: Increased student engagement, improved analytical thinking, better understanding of graphing/visualization, exposure to Desmos, enhanced club visibility, promotion of AI-integrated and interdisciplinary learning.
+Faculty Coordinator: Dr. Mahalakshmi P (HoD, Dept. of Mathematics) and Mr. Manoj Solanki (Faculty In-Charge, Asst. Professor).
+Gallery: View event photos at /gallery on the club website.
 
---- PAST EVENTS ---
 Event: Sootravyooh: 'From Formulae to Fun'
 Type: Workshop
+Status: COMPLETED ✅
 Date: 26 September 2025
 Location: SOE Lab 406, DSU Bengaluru
 Description: A vibrant mathematics event that brought together students to explore the playful side of mathematics — from formulae to engaging hands-on activities.
@@ -80,6 +90,7 @@ PDF: https://www.dsu.edu.in/images/Engineering/Maths-dept/clubs/Brahmagupta/Soot
 
 Event: National Mathematics Day & Inauguration of Brahmagupta Club
 Type: Inauguration & Celebration
+Status: COMPLETED ✅
 Date: 24 December 2024
 Location: SOE – LH-01, DSU Bengaluru
 Description: The official inauguration of the Brahmagupta Mathematics Club, held on National Mathematics Day — commemorating the birthday of the great mathematician Srinivasa Ramanujan. This was the founding event of the club.
@@ -163,7 +174,7 @@ Guidelines:
 1. Be friendly, encouraging, and slightly academic in tone — like a knowledgeable club senior.
 2. Always answer questions about the club, events, team, and contact using the knowledge base above.
 3. For questions NOT related to the club (pure math, CS, AI concepts), use your broad knowledge — but stay on-brand.
-4. If asked what the upcoming event is, always mention "THE FAST AND FORMULAE" (27 April 2026, 1:30–4:30 PM, LH-03) unless a newer event appears in the dynamic database data.
+4. "The Fast & The Formulae" (27 April 2026) has been COMPLETED — do NOT describe it as upcoming or open for registrations. It had 25 teams, 100+ participants, and was a great success. If asked about upcoming events, say none are currently scheduled and direct to Instagram (@themathclub_dsu) for announcements.
 5. Format responses with markdown (bold, bullet lists) for readability.
 6. Keep answers concise unless the user asks for full details.
 7. If you truly don't know something that's not in the knowledge base, say so honestly.`;

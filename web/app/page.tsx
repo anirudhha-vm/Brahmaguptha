@@ -5,18 +5,7 @@ import ContactForm from './ContactForm';
 import Footer from '../components/Footer';
 import { CLUB_PHOTOS } from './gallery/photos';
 
-const UPCOMING_EVENTS: any[] = [
-  {
-    id: 'the-fast-and-formulae',
-    type: 'Competition',
-    title: 'THE FAST AND FORMULAE',
-    desc: 'Test your speed and mathematical precision in this high-stakes competition organized by the Brahmagupta Mathematics Club. Open to all SOE-DSU students.',
-    highlights: ['Speed Challenge', 'Mathematical Precision', 'Special Prizes'],
-    date: '27 April 2026 | 1:30 PM - 4:30 PM',
-    location: 'Lecture Hall - 03',
-    formLink: 'https://brahmaguptha.carrd.co/'
-  }
-];
+// No upcoming events currently
 
 export default function Home() {
   return (
@@ -54,30 +43,13 @@ export default function Home() {
       <div className="news-ticker-wrapper">
         <div className="news-ticker">
           {/* --- SET 1 --- */}
-          <span className="ticker-item">
-            🚀 Registrations now open for THE FAST AND FORMULAE!
-            <a href="https://brahmaguptha.carrd.co/" target="_blank" rel="noopener noreferrer" className="ticker-btn">Register Now</a>
-          </span>
-          <span className="ticker-item">
-            Welcome to the newly launched official website of Brahmagupta Mathematics Club — DSU SOE.
-          </span>
-          <span className="ticker-item">
-            🚀 Registrations now open for THE FAST AND FORMULAE!
-            <a href="https://brahmaguptha.carrd.co/" target="_blank" rel="noopener noreferrer" className="ticker-btn">Register Now</a>
-          </span>
-
+          <span className="ticker-item">🎉 The Fast &amp; The Formulae concluded successfully — 25 teams, 100+ participants! View photos in the Gallery.</span>
+          <span className="ticker-item">Welcome to the official website of Brahmagupta Mathematics Club — DSU SOE.</span>
+          <span className="ticker-item">🔔 Stay tuned for upcoming events — follow us on Instagram @themathclub_dsu</span>
           {/* --- SET 2 (Duplicate for infinite scroll) --- */}
-          <span className="ticker-item" aria-hidden="true">
-            🚀 Registrations now open for THE FAST AND FORMULAE!
-            <a href="https://brahmaguptha.carrd.co/" target="_blank" rel="noopener noreferrer" className="ticker-btn" tabIndex={-1}>Register Now</a>
-          </span>
-          <span className="ticker-item" aria-hidden="true">
-            Welcome to the newly launched official website of Brahmagupta Mathematics Club — DSU SOE.
-          </span>
-          <span className="ticker-item" aria-hidden="true">
-            🚀 Registrations now open for THE FAST AND FORMULAE!
-            <a href="https://brahmaguptha.carrd.co/" target="_blank" rel="noopener noreferrer" className="ticker-btn" tabIndex={-1}>Register Now</a>
-          </span>
+          <span className="ticker-item" aria-hidden="true">🎉 The Fast &amp; The Formulae concluded successfully — 25 teams, 100+ participants! View photos in the Gallery.</span>
+          <span className="ticker-item" aria-hidden="true">Welcome to the official website of Brahmagupta Mathematics Club — DSU SOE.</span>
+          <span className="ticker-item" aria-hidden="true">🔔 Stay tuned for upcoming events — follow us on Instagram @themathclub_dsu</span>
         </div>
       </div>
 
@@ -136,41 +108,26 @@ export default function Home() {
         <div className="section-inner">
           <div className="section-header-row">
             <div>
-              <div className="section-label light">Upcoming</div>
+              <div className="section-label light">On the Horizon</div>
               <h2 className="section-head light">Events &amp; Workshops</h2>
             </div>
             <Link href="/events" className="btn btn-outline-copper">View All Events</Link>
           </div>
           <div className="events-grid">
-            {UPCOMING_EVENTS.map(ev => (
-              <div key={ev.id} className="event-card featured-event">
-                <div className="event-card-top">
-                  <span className="event-type-badge">{ev.type}</span>
-                  <span className="event-live-pill">🔥 Registrations Open</span>
-                </div>
-                <h3 className="event-title">{ev.title}</h3>
-                <p className="event-desc">{ev.desc}</p>
-                <div className="event-highlights">
-                  {ev.highlights?.map((h: string, i: number) => (
-                    <span key={i} className="event-highlight-tag">{h}</span>
-                  ))}
-                </div>
-                <div className="event-meta">
-                  <span>📅 {ev.date}</span>
-                  <span>📍 {ev.location}</span>
-                </div>
-                {ev.formLink && (
-                  <a
-                    href={ev.formLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-copper event-register-btn"
-                  >
-                    Register ↗
-                  </a>
-                )}
-              </div>
-            ))}
+            <div className="event-card featured-event" style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center', minHeight: '260px' }}>
+              <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>⏳</div>
+              <h3 className="event-title" style={{ marginBottom: '0.75rem' }}>Next Event Coming Soon</h3>
+              <p className="event-desc" style={{ maxWidth: '380px' }}>We&apos;re working on something exciting. Stay connected for announcements on our next competition or workshop.</p>
+              <a
+                href="https://www.instagram.com/themathclub_dsu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-copper event-register-btn"
+                style={{ textDecoration: 'none', marginTop: '0.5rem' }}
+              >
+                Follow for Updates ↗
+              </a>
+            </div>
           </div>
         </div>
       </section>
