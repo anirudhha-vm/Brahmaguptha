@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { createClient } from '../utils/supabase/client';
+import './ContactForm.css';
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
